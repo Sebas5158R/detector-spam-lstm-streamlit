@@ -11,7 +11,7 @@ Para optimizar los tiempos de cómputo, el flujo de trabajo se dividió en un en
 
 ## 📁 Estructura del Repositorio
 
-* `RedNeuronalRecurrente_RNN.ipynb`: Cuaderno de **Google Colab** utilizado para la tokenización de textos, configuración de la capa *Embedding*, entrenamiento de la red recurrente y exportación de pesos.
+* `RedNeuronalRecurrente_RNN.ipynb`: Cuaderno de **Google Colab** utilizado para la tokenización de textos, configuración de la capa *Embedding*, entrenamiento de la red recurrente y exportación de pesos. Puedes acceder a la versión activa en la nube mediante este [Enlace al Cuaderno de Google Colab](https://colab.research.google.com/drive/1o4w2V7E81dRf4rFuZYM9eAJqARjmd0zN?usp=sharing).
 * `entrenamiento_spam.py`: Script de respaldo en Python que contiene la arquitectura LSTM completa, generación de la matriz de confusión y reportes de clasificación.
 * `modelo_spam_lstm.keras`: Archivo binario con los pesos guardados de la red neuronal entrenada en la nube.
 * `tokenizer_config.json`: Diccionario con el índice de palabras (tokens) exportado de Keras para asegurar que la app web traduzca el texto de la misma forma que el modelo lo aprendió.
